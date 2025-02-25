@@ -1,11 +1,12 @@
 name: Development Build Opensuse (Galaxy A50)
 
-on:
+on: 
   push:
     branches:
       - 'master'
       - 'main'
       - 'wip-*'
+  workflow_dispatch:
 
 jobs:
   #oneui:
